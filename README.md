@@ -27,3 +27,15 @@ https://kakuleshov.github.io/deep-seek-test/
 - HTML
 - CSS
 - JavaScript (без фреймворков)
+
+## Структура
+
+- `index.html` — главная
+- `about.html` — о проекте
+- `contact.html` — контакты
+- `404.html` — страница ошибки
+- `style.css` — стили
+- `script.js` — счётчик
+- `robots.txt`, `sitemap.xml` — для поисковиков
+- `favicon.svg` — иконка
+- `LICENSE` — лицензия MIT
