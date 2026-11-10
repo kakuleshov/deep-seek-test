@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kakuleshov.github.io/deep-seek-test/sitemap.xml
