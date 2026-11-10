@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Галерея — deep-seek-test</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <h1>Галерея</h1>
+  <p>Простые картинки-заглушки. Позже можно заменить на свои фото.</p>
+
+  <div class="gallery">
+    <figure>
+      <img src="https://picsum.photos/300/200?random=1" alt="Случайное фото 1">
+      <figcaption>Фото 1</figcaption>
+    </figure>
+    <figure>
+      <img src="https://picsum.photos/300/200?random=2" alt="Случайное фото 2">
+      <figcaption>Фото 2</figcaption>
+    </figure>
+    <figure>
+      <img src="https://picsum.photos/300/200?random=3" alt="Случайное фото 3">
+      <figcaption>Фото 3</figcaption>
+    </figure>
+    <figure>
+      <img src="https://picsum.photos/300/200?random=4" alt="Случайное фото 4">
+      <figcaption>Фото 4</figcaption>
+    </figure>
+    <figure>
+      <img src="https://picsum.photos/300/200?random=5" alt="Случайное фото 5">
+      <figcaption>Фото 5</figcaption>
+    </figure>
+    <figure>
+      <img src="https://picsum.photos/300/200?random=6" alt="Случайное фото 6">
+      <figcaption>Фото 6</figcaption>
+    </figure>
+  </div>
+
+  <p style="margin-top: 1.5rem;"><a href="index.html">← На главную</a></p>
+</body>
+</html>
