@@ -1,0 +1,26 @@
+name: HTML Check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-html:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check index.html exists
+        run: |
+          if [ -f "index.html" ]; then
+            echo "✅ index.html найден"
+          else
+            echo "❌ index.html отсутствует!"
+            exit 1
+          fi
+
+      - name: Validate HTML with HTMLHint
+        run: npx htmlhint "*.html" || true
