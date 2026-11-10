@@ -26,3 +26,12 @@ button {
 button:hover { background: #1d4ed8; }
 
 #out { font-weight: 600; color: #1d4ed8; }
+a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
